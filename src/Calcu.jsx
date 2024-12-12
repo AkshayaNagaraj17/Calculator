@@ -17,12 +17,12 @@ function CalCu() {
     }
   return (
     
-    <div className="bg-black text-white flex flex-col m-20 rounded-2xl justify-center ">
-      <h1 className="text-3xl text-center mt-5">Calculator-Project</h1>
+    <div className=" border  border-gray-400 p-5 bg-black text-white flex flex-col m-20 rounded-2xl justify-center ">
+      <h1 className="text-3xl text-center mt-5">Calculator</h1>
       <div className="mt-10 mb-10">
         <input type="text" value={input} className=" tezt-3xl p-5 rounded-md w-full bg-gray-400"/>
       </div>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-4 m-5">
         <button className=" border border-gray-500 p-3  rounded-md" onClick={()=>click("1")}> 1</button>
         <button className=" border border-gray-500 p-3  rounded-md" onClick={()=>click("2")}> 2</button>
         <button className=" border border-gray-500 p-3  rounded-md" onClick={()=>click("3")}> 3</button>
