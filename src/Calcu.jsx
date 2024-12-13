@@ -17,7 +17,7 @@ function CalCu() {
     }
   return (
     
-    <div className=" border  border-gray-400 p-5 bg-black text-white flex flex-col m-20 rounded-2xl justify-center ">
+    <div className="  border  border-gray-400 p-5 bg-black text-white flex flex-col m-20 rounded-2xl justify-center ">
       <h1 className="text-3xl text-center mt-5">Calculator</h1>
       <div className="mt-10 mb-10">
         <input type="text" value={input} className=" bg-opacity-20 tezt-3xl p-5 rounded-md w-full bg-gray-400"/>

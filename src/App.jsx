@@ -1,13 +1,13 @@
 import Calculator from './Calcu'
 import './App.css'
-
+import Hooks from './hooks'
 function App() {
   
 
   return (
     <>
-    <Calculator></Calculator>
-     
+    {/* <Calculator></Calculator> */}
+     <Hooks></Hooks>
     </>
   )
 }
